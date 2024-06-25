@@ -1,0 +1,71 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Stopwatch Styles */
+  
+  .background {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .stopwatch {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px;
+    border: 1px solid #ccc; /* add border around stopwatch area */
+    padding: 10px; /* add padding to create space between border and stopwatch text */
+    border-radius: 10px; /* add rounded corners to border */
+  }
+  
+  .stopwatch span {
+    margin: 0 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  button:active {
+    background-color: #aaa;
+  }
+  
+  #stop-btn {
+    background-color: #ff9900; /* orange color for stop button */
+  }
+  
+  #stop-btn:hover {
+    background-color: #ff6600; /* darker orange color on hover */
+  }
